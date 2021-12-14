@@ -348,7 +348,7 @@ is listened by all subreducers,
 ### addDataToMap
 
 Add data to kepler.gl reducer, prepare map with preset configuration if config is passed.
-Kepler.gl provides a handy set of utils to parse data from different formats to the `data` object required in dataset. You rarely need to manually format the data obejct.
+Kepler.gl provides a handy set of utils to parse data from different formats to the `data` object required in dataset. You rarely need to manually format the data object.
 
 Use `KeplerGlSchema.getConfigToSave` to generate a json blob of the currents instance config.
 The config object value will always have higher precedence than the options properties.
